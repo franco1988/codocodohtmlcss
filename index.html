@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/favicon.ico">
+
+  <title>Trabajo Integrador HTML 23648</title>
+</head>
+<body>
+   <nav>
+       <div class="navbar">
+           <div class="navizquierda">
+               <a href="index.html">
+                   <img src="images/codoacodo-min.png" alt="Codo a Codo logo">
+                   <h3>Conf Bs As</h3>
+               </a>
+           </div>
+           <div class="navderecha"> 
+               <a  href="#">La conferencia</a>
+               <a href="#">Los oradores</a>
+               <a  href="#">El lugar y la fecha</a>
+               <a  href="#form-orador">Conviértete en orador</a>
+               <a style="color: #21e303;" href="#">Comprar tickets</a>
+           </div>
+       </div>
+   </nav>
+
+   <main>
+       <!-- <div>
+           carrusel
+         <img src="images/ba1-min.jpg" alt="">        
+           
+        </div> -->
+        <section>
+            <div id="carrusel-contenido">
+                <div id="carrusel-caja">
+                    <div class="carrusel-elemento">
+                        <img class="imagenes" src="images/ba1-min.jpg" alt="1">
+                    </div>
+                    <div class="carrusel-elemento">   
+                        <img class="imagenes" src="images/ba2-min.jpg" alt="2">
+                    </div>
+                    <div class="carrusel-elemento">   
+                        <img class="imagenes" src="images/ba3-min.jpg" alt="3">                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section1">
+            <p class="conoce">CONOCE A LOS</p>
+            <h1 class="oradores">ORADORES</h1>
+            <div class="container">
+                <div class="culumna">
+                    <img src="images/steve-min.jpg" alt="...">
+                    <div style="padding: 1rem ;">
+                        <div style="padding: 0.5rem 0rem;">
+                            <span class="amarillo">Javascript</span>
+                            <span class="celeste">React</span>
+                        </div>
+                        <h2 class="titulocard">Steve Jobs</h2>
+                        <p class="parrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et aspernatur, sit dolorem officiis dolor, nobis sed labore non culpa dignissimos amet excepturi odit quis quos temporibus ut asperiores possimus. Veniam!</p>
+                    </div>
+                </div>
+                <div class="culumna">
+                    <img src="images/bill-min.jpg" alt="...">
+                    <div style="padding: 1rem;">
+                        <div style="padding: 0.5rem 0rem;">
+                            <span class="amarillo">Javascript</span>
+                            <span class="celeste">React</span>
+                        </div>
+                        <h2 class="titulocard">Bill Gates</h2>
+                        <p class="parrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et aspernatur, sit dolorem officiis dolor, nobis sed labore non culpa dignissimos amet excepturi odit quis quos temporibus ut asperiores possimus. Veniam!</p>
+                    </div>
+                </div>
+                <div class="culumna">
+                    <img src="images/ada-min.jpeg" alt="...">
+                    <div style="padding: 1rem;">
+                        <div style="padding: 0.5rem 0rem;">
+                            <span class="gris">Negocios</span>
+                            <span class="rojo">Startups</span>
+                        </div>
+                        <h2 class="titulocard">Ada Lovelace</h2>
+                        <p class="parrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et aspernatur, sit dolorem officiis dolor, nobis sed labore non culpa dignissimos amet excepturi odit quis quos temporibus ut asperiores possimus. Veniam!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section2">
+            <div class="flex">
+                <div class="playa">
+                    <img src="images/honolulu-min.jpg" alt="Honolulu" >
+                </div>
+                <div class="bsas">
+                    <h2>Bs As - Octubre</h2>
+                    <p class="parrafoplaya">Buenos Aires es la provincia y localidad mas grande del estado de Argentina, en los Estados Unidos. Honolulu es la mas sureña de entre las principales ciudades estaunidenses. Aunque el nombre de Honolulu se refiere al area urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado ena ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de superficie).</p>
+                    <div class="conoceMAS">
+                        <a href="#">Conocé más</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section3">
+            <p class="conoce">COVIERTETE EN UN</p>
+            <h1 class="oradores">ORADOR</h1>
+            <p class="conoce">Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+            <form action="">
+                <div class="formnombre">
+                    <input type="text" placeholder="Nombre"  required>
+                    <input type="text" placeholder="Apellido"  required>
+                </div>
+                <div style="margin-bottom: 1rem;">
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div>
+                    <textarea  rows="4" placeholder="Sobre qué quieres hablar?" required></textarea>
+                </div>
+                <p class="charla">Recuerda incluir un título para tu charla.</p>
+                <button class="buttonsubmit" type="submit" >Enviar</button>
+            </form>
+        </section>
+   </main>
+   <footer >
+        <div class="footer">
+            <a class="linea" href="#">Preguntas<span>frecuentes</span></a>
+            <a  href="#">Contáctanos</a>
+            <a  href="#">Prensa</a>
+            <a  href="#">Conferencias</a>
+            <a class="linea" href="#">Términos y<span>condiciones</span></a>
+            <a  href="#">Privacidad</a>
+            <a href="#">Estudiantes</a>  
+        </div>
+   </footer>
+</body>
+</html>
